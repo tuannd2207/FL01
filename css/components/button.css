@@ -1,0 +1,17 @@
+.btn {
+  outline: none;
+  border: none;
+  width: 141px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  border-radius: 25px;
+}
+
+.btn-outline {
+  border: 1px solid #73796E;
+}
+
+/*# sourceMappingURL=button.css.map */

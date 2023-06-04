@@ -1,0 +1,63 @@
+.header-page {
+  background-color: #F1EFEB;
+}
+.header-page .top-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 45px;
+}
+.header-page .top-side .logo {
+  font-family: "BROLIMO";
+  font-size: 30px;
+}
+.header-page .top-side .menu .row-nav {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  column-gap: 40px;
+}
+.header-page .top-side .menu .row-nav li {
+  list-style-type: none;
+  font-family: "Founders Grotesk";
+}
+.header-page .top-side .search-box {
+  font-family: "Founders Grotesk";
+}
+.header-page .main-side {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-page .main-side .slogan {
+  padding: 145px;
+}
+.header-page .main-side .slogan .slogan-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.header-page .main-side .slogan .slogan-content .slogan-title {
+  font-size: 60px;
+  font-family: "BROLIMO";
+  line-height: 72px;
+}
+.header-page .main-side .slogan .slogan-content .slogan-text {
+  font-family: "Founders Grotesk";
+  line-height: 21px;
+  font-size: 18px;
+}
+.header-page .main-side .slogan button {
+  margin-top: 20px;
+}
+.header-page .bg-top {
+  background-image: url("../../assets/img/header-bg.svg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 380px;
+  height: 606px;
+}
+
+/*# sourceMappingURL=header.css.map */

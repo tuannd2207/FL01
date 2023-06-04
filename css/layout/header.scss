@@ -1,0 +1,79 @@
+@import "../variables/text";
+@import "../variables/color";
+.header-page{
+  background-color: $header-bg;
+  .top-side{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 45px;
+
+    .logo{
+      font-family: $font-title;
+      font-size: 30px;
+    }
+
+    .menu{
+      .row-nav{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        column-gap: 40px;
+
+        li{
+          list-style-type: none;
+          font-family: $font-normal;
+        }
+      }
+    }
+
+    .search-box{
+      font-family: $font-normal;
+    }
+  }
+  .main-side{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .slogan{
+      img{
+        animation: spin 3s linear 0s infinite;
+      }
+      padding: 145px;
+      .slogan-content{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        .slogan-title{
+          font-size: 60px;
+          font-family: $font-title;
+          line-height: 72px;
+        }
+        .slogan-text{
+          font-family: $font-normal;
+          line-height: 21px;
+          font-size: 18px;
+        }
+      }
+      button{
+        margin-top: 20px;
+      }
+    }
+  }
+  .bg-top{
+    background-image: url("../../assets/img/header-bg.svg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 380px;
+    height: 606px;
+  }
+}
+
+@keyframes spin {
+  100% {
+    transform:rotate(360deg);
+  }
+}
