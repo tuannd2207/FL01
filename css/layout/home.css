@@ -1,5 +1,288 @@
-.index-main {
-  padding: 150px 50px 0;
+.ftitle {
+  font-weight: 500;
+  font-family: "BROLIMO";
+  color: "BROLIMO";
 }
 
-/*# sourceMappingURL=home.css.map */
+.fcontent {
+  font-weight: 400;
+  color: "BROLIMO";
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.index-main {
+  padding: 150px 25px 0;
+}
+.index-main .index-top .index-top-title {
+  font-family: "BROLIMO";
+  font-size: 18px;
+  font-weight: 600;
+  color: #2D3F2F;
+}
+.index-main .index-top-img-container {
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+.index-main .index-top-img-container .index-top-img .img-container {
+  width: 100%;
+}
+.index-main .index-top-img-container .index-top-img .img-container .img-inner, .index-main .index-top-img-container .index-top-img .img-container img {
+  width: inherit;
+}
+.index-main .index-top-img-container .img-text {
+  margin-top: 18px;
+}
+.index-main .index-top-img-container .img-text .img-des {
+  color: #2E2423;
+  font-weight: 500;
+}
+.index-main .index-top-img-container .img-text .img-price {
+  color: #464646;
+  font-weight: 300;
+  font-size: 14px;
+}
+.index-main .pre-index-center {
+  display: flex;
+  margin: 190px -25px;
+}
+.index-main .pre-index-center .pre-index-left {
+  background-color: #EFE8DF;
+  display: flex;
+  justify-content: center;
+  padding: 45px 116px;
+  flex-basis: 40%;
+  max-width: 40%;
+}
+.index-main .pre-index-center .pre-index-left .slogan {
+  position: relative;
+}
+.index-main .pre-index-center .pre-index-left .slogan .slogan-inner {
+  position: absolute;
+  bottom: 0;
+  left: -50px;
+  display: inline-block;
+  transform: rotate(270deg);
+}
+.index-main .pre-index-center .pre-index-left .pre-deco {
+  position: relative;
+}
+.index-main .pre-index-center .pre-index-left .pre-deco .border-deco {
+  position: absolute;
+  top: -30px;
+  left: 50px;
+  display: inline-block;
+  height: 100px;
+  width: 1px;
+  background-color: #2E2423;
+}
+.index-main .pre-index-center .pre-index-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F1EFEB;
+}
+.index-main .pre-index-center .pre-index-right .pre-index-content {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+.index-main .pre-index-center .pre-index-right .pre-index-content .pre-index-content-title {
+  color: #2D3F2F;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "BROLIMO";
+  margin-bottom: 28px;
+}
+.index-main .pre-index-center .pre-index-right .pre-index-content .pre-index-content-text {
+  font-size: 16px;
+  color: #2D3F2F;
+  font-weight: 300;
+  margin-bottom: 43px;
+}
+.index-main .index-center-one {
+  margin-bottom: 260px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.index-main .index-center-one .index-center-one-left {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+.index-main .index-center-one .index-center-one-left .one-left-content {
+  margin-bottom: 88px;
+  padding: 0 350px 0 190px;
+}
+.index-main .index-center-one .index-center-one-left .one-left-content .left-content-title {
+  font-family: "BROLIMO";
+  font-size: 25px;
+  font-weight: 500;
+  color: #2D3F2F;
+}
+.index-main .index-center-one .index-center-one-left .one-left-content .left-content-text {
+  font-weight: 300;
+  font-size: 16px;
+  color: #2E2423;
+  margin-top: 8px;
+}
+.index-main .index-center-one .index-center-one-left .img-content {
+  display: flex;
+  width: 90%;
+  margin-left: 10%;
+}
+.index-main .index-center-one .index-center-one-left .img-content img {
+  width: 100%;
+  margin-left: auto;
+}
+.index-main .index-center-one .index-center-one-right {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+.index-main .index-center-one .index-center-one-right img {
+  width: 100%;
+}
+.index-main .index-center-two .index-center-two-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.index-main .index-center-two .index-center-two-top .two-top-title {
+  font-family: "BROLIMO";
+  font-size: 25px;
+  color: #2D3F2F;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.index-main .index-center-two .index-center-two-top .two-top-sup-title {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 25px;
+  color: #2D3F2F;
+}
+.index-main .index-center-two .index-two {
+  text-transform: capitalize;
+  margin-bottom: 13px;
+}
+.index-main .index-center-two .index-center-two-top {
+  margin-bottom: 50px;
+}
+.index-main .index-center-two .index-top-img-exception {
+  margin-top: 30px;
+}
+.index-main .index-three-top-img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.index-main .index-three-top-img-container img {
+  width: 100%;
+}
+.index-main .index-three-top-img-container .img-text {
+  margin-top: 18px;
+}
+.index-main .index-three-top-img-container .img-text .img-des {
+  color: #2E2423;
+  font-weight: 500;
+}
+.index-main .index-three-top-img-container .img-text .img-price {
+  color: #464646;
+  font-weight: 300;
+  font-size: 14px;
+}
+.index-main .see-mor {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 37px;
+  text-transform: capitalize;
+}
+.index-main .index-last {
+  margin: 153px -25px 0;
+}
+.index-main .index-last .index-last-top {
+  background-color: #EFE8DF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 350px;
+}
+.index-main .index-last .index-last-center {
+  display: flex;
+}
+.index-main .index-last .index-last-center img {
+  width: 100%;
+}
+.index-main .index-last .index-last-three {
+  background-color: #EFE8DF;
+  display: flex;
+  justify-content: center;
+  padding: 55px 180px;
+  gap: 200px;
+}
+.index-main .index-last .index-last-three .last-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.index-main .index-last .index-last-three .last-item .icon-last-center:before {
+  content: url("../../assets/img/Group 6.svg");
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+}
+.index-main .index-last .index-last-three .last-item .icon-butterfly:before {
+  content: url("../../assets/img/butterfly.svg");
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+}
+.index-main .index-last .index-last-three .last-item .icon-bee:before {
+  content: url("../../assets/img/bee.svg");
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+}
+.index-main .index-last .index-last-three .last-item .title-last {
+  text-transform: uppercase;
+  font-family: "BROLIMO";
+  font-weight: 500;
+  font-size: 16px;
+  color: #2D3F2F;
+  margin-bottom: 8px;
+}
+.index-main .index-last .index-last-three .last-item .content-last {
+  font-size: 12px;
+  font-weight: 400;
+  color: #6A6A6A;
+  text-align: center;
+}
+
+.owl-nav {
+  position: absolute;
+  top: -50px;
+  right: 100px;
+  display: flex;
+  gap: 50px;
+}
+
+.icon-title-arrow-right:before {
+  content: "";
+  background-image: url("../../assets/img/index-arrow-right.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 52px;
+  height: 8px;
+}/*# sourceMappingURL=home.css.map */

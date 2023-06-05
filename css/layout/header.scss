@@ -1,11 +1,17 @@
 @import "../variables/text";
 @import "../variables/color";
 .header-page{
-  background-color: $header-bg;
+  background-image: url('../../assets/img/index-top-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   .top-side{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    backdrop-filter: blur(30px);
+    top: 0;
     padding: 25px 45px;
 
     .logo{
@@ -50,6 +56,7 @@
           font-size: 60px;
           font-family: $font-title;
           line-height: 72px;
+          animation: content 4s;
         }
         .slogan-text{
           font-family: $font-normal;
@@ -75,5 +82,16 @@
 @keyframes spin {
   100% {
     transform:rotate(360deg);
+  }
+}
+
+@keyframes content {
+  from{
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
   }
 }

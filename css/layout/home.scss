@@ -1,3 +1,5 @@
+@import '../variables/text';
+@import '../variables/color';
 .ftitle{
   font-weight: 500;
   font-family: $font-title;
@@ -31,7 +33,7 @@
   &:before{
     content: url($url);
     display: inline-block;
-    width: 60px;
+    width: 30px;
     text-align: center;
   }
 }
@@ -39,6 +41,7 @@
 .index-main{
   padding: 150px 25px 0;
   .index-top{
+
     .index-top-title{
       font-family: $font-title;
       font-size: $title-sup-size;
@@ -47,10 +50,19 @@
     }
   }
   .index-top-img-container{
+    position: relative;
     margin-top: 30px;
     display: flex;
     gap: 30px;
     justify-content: space-between;
+    .index-top-img{
+      .img-container{
+        width: 100%;
+        .img-inner, img{
+          width: inherit;
+        }
+      }
+    }
     @include commonImgInner;
   }
   .pre-index-center{
@@ -136,10 +148,19 @@
       }
       .img-content{
         display: flex;
-        width: 100%;
+        width: 90%;
+        margin-left: 10%;
         img{
+          width: 100%;
           margin-left: auto;
         }
+      }
+    }
+    .index-center-one-right{
+      flex-basis: 50%;
+      max-width: 50%;
+      img{
+        width: 100%;
       }
     }
   }
@@ -209,6 +230,7 @@
     .index-last-three{
       background-color: #EFE8DF;
       display: flex;
+      justify-content: center;
       padding: 55px 180px;
       gap: 200px;
       .last-item{
@@ -243,6 +265,14 @@
 
     }
   }
+}
+
+.owl-nav{
+  position: absolute;
+  top: -50px;
+  right: 100px;
+  display: flex;
+  gap: 50px;
 }
 .icon-title-arrow-right{
   &:before{

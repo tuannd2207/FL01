@@ -1,4 +1,4 @@
-.btn {
+.fbtn {
   outline: none;
   border: none;
   width: 141px;
@@ -10,8 +10,6 @@
   border-radius: 25px;
 }
 
-.btn-outline {
+.fbtn-outline {
   border: 1px solid #73796E;
-}
-
-/*# sourceMappingURL=button.css.map */
+}/*# sourceMappingURL=button.css.map */
