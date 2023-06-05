@@ -1,10 +1,7 @@
 @import "../variables/text";
 @import "../variables/color";
 .header-page{
-  background-image: url('../../assets/img/index-top-2.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: $header-bg;
   .top-side{
     display: flex;
     align-items: center;
