@@ -59,7 +59,7 @@
   margin-top: 20px;
 }
 .header-page .bg-top {
-  background-image: url("../../assets/img/header-bg.svg");
+  background-image: url(../assets/img/header-bg.svg);
   background-position: right top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -457,7 +457,7 @@
   justify-content: center;
   font-size: 0;
   background: rgba(0, 0, 0, 0.3);
-  width: 0%;
+  width: 0;
   height: 100%;
   position: absolute;
   top: 50%;

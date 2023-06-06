@@ -1,5 +1,6 @@
 @import "../variables/text";
 @import "../variables/color";
+@import "../utilities/spacing";
 .header-page{
   background-color: $header-bg;
   .top-side{
@@ -67,7 +68,7 @@
     }
   }
   .bg-top{
-    background-image: url("../../assets/img/header-bg.svg");
+    background-image: url(#{$path-images}/header-bg.svg);
     background-position: right top;
     background-repeat: no-repeat;
     background-size: contain;
