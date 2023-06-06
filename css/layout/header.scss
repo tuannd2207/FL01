@@ -1,6 +1,7 @@
 @import "../variables/text";
 @import "../variables/color";
 @import "../utilities/spacing";
+@import "../mixin/mixin";
 .header-page{
   background-color: $header-bg;
   .top-side{
@@ -33,6 +34,16 @@
 
     .search-box{
       font-family: $font-normal;
+      font-weight: 400;
+      color: $color-sup-title;
+      display: flex;
+      gap: 30px;
+      .search-icon{
+        @include customIcon(url(#{$path-images}/search-icon.svg));
+      }
+      .bag-icon{
+        @include customIcon(url(#{$path-images}/bag-icon.svg));
+      }
     }
   }
   .main-side{

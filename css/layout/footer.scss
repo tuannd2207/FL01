@@ -1,10 +1,13 @@
+@import "../utilities/spacing";
 .footer{
-  display: flex;
-  padding: 90px 150px;
-  background-color: #000000;
+  .footer-wrapper{
+    display: flex;
+    justify-content: center;
+    column-gap: 140px;
+  }
   color: #B1B1B1;
-  justify-content: center;
-  column-gap: 140px;
+  background-color: #000000;
+  padding: 90px 150px 0;
   .logo{
     .logo-title{
       font-family: $font-title;
@@ -41,7 +44,7 @@
       outline: none;
       width: 100%;
       &:focus{
-        background-color: none;
+        background-color: unset;
         outline: none;
         border-top: none;
         border-left: none;
@@ -60,13 +63,17 @@
     justify-content: space-between;
     height: 60%;
   }
+  .hr-footer{
+    background-color: #363636;
+    margin: 30px -150px 0;
+  }
 }
 .icon-arrow-right{
   position: absolute;
   right: 10px;
   top: 5px;
   &:before{
-    background-image: url("../../assets/img/arrow-right.svg");
+    background-image: url(#{$path-images}/arrow-right.svg);
     content: '';
     background-repeat: no-repeat;
     background-size: contain;

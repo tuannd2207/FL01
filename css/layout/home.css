@@ -237,7 +237,7 @@
   align-items: center;
 }
 .index-main .index-last .index-last-three .last-item .icon-last-center:before {
-  content: url("../../assets/img/Group 6.svg");
+  content: url("Group6.svg");
   display: inline-block;
   width: 30px;
   text-align: center;

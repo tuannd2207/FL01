@@ -1,0 +1,11 @@
+@mixin customIcon($url, $animation: unset) {
+  &:before {
+    content: $url;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    animation: $animation;
+  }
+}
+
+

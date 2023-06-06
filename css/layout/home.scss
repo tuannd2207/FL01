@@ -1,6 +1,7 @@
 @import '../variables/text';
 @import '../variables/color';
-
+@import "../utilities/spacing";
+@import "../mixin/mixin";
 .ftitle {
   font-weight: 500;
   font-family: $font-title;
@@ -34,15 +35,6 @@
       font-weight: 300;
       font-size: 14px;
     }
-  }
-}
-
-@mixin customIcon($url) {
-  &:before {
-    content: url($url);
-    display: inline-block;
-    width: 30px;
-    text-align: center;
   }
 }
 
@@ -147,7 +139,7 @@
   }
 
   .index-center-one {
-    margin-bottom: 260px;
+    margin-bottom: 200px;
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -186,22 +178,25 @@
         }
 
         &:hover .back-drop {
-          width: 100%;
+          opacity: 1;
           font-size: 16px;
         }
       }
     }
 
     .index-center-one-right {
+      position: relative;
       flex-basis: 50%;
       max-width: 50%;
-
+      &:hover .back-drop {
+        opacity: 1;
+        font-size: 16px;
+      }
       img {
         width: 100%;
       }
     }
   }
-
   .index-center-two {
     .index-center-two-top {
       display: flex;
@@ -277,6 +272,20 @@
       img {
         width: 100%;
       }
+      .last-img-left{
+        transition: .8s ease-in-out;
+        &:hover{
+          scale: 1.1;
+          transform: translateX(20px);
+        }
+      }
+      .last-img-right{
+        transition: .8s ease-in-out;
+        &:hover{
+          scale: 1.1;
+          transform: translateX(-20px);
+        }
+      }
     }
 
     .index-last-three {
@@ -293,15 +302,15 @@
         align-items: center;
 
         .icon-last-center {
-          @include customIcon("../../assets/img/Group 6.svg")
+          @include customIcon(url(#{$path-images}/Group6.svg))
         }
 
         .icon-butterfly {
-          @include customIcon("../../assets/img/butterfly.svg")
+          @include customIcon(url(#{$path-images}/butterfly.svg));
         }
 
         .icon-bee {
-          @include customIcon("../../assets/img/bee.svg")
+          @include customIcon(url(#{$path-images}/bee.svg))
         }
 
         .title-last {
@@ -323,6 +332,22 @@
 
     }
   }
+
+  .back-drop {
+    display: flex;
+    transition:.5s ease-in-out .5s;
+    align-items: center;
+    justify-content: center;
+    font-size: 0;
+    background: rgba(0, 0, 0, .3);
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .owl-nav {
@@ -332,11 +357,10 @@
   display: flex;
   gap: 50px;
 }
-
 .icon-title-arrow-right {
   &:before {
     content: '';
-    background-image: url("../../assets/img/index-arrow-right.svg");
+    background-image: url(#{$path-images}/index-arrow-right.svg);
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
@@ -345,18 +369,4 @@
   }
 
 }
-//code  tamj
-.back-drop {
-  display: flex;
-  transition: 1s ease-in-out .5s;
-  align-items: center;
-  justify-content: center;
-  font-size: 0;
-  background: rgba(0, 0, 0, .3);
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+

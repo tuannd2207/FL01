@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/style.css"/>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css"/>
   <title>Title</title>
 </head>
 <body>
@@ -21,8 +23,8 @@
     </div>
     <div class="search-box">
       <div>Account</div>
-      <div></div>
-      <div></div>
+      <i class="search-icon"></i>
+      <i class="bag-icon"></i>
     </div>
   </div>
   <div class="main-side">
@@ -45,47 +47,66 @@
 </div>
 blog
 <div class="footer">
-  <div class="footer-item">
-    <div class="logo">
-      <div class="logo-title">FLORIA</div>
-      <div class="logo-text">800 FLORIA  (7599938)</div>
-    </div>
-    <div class="footer-text">Open from 8:00 am to 10:00 pm</div>
-    <div class="footer-text">support@floria.ae</div>
-    <div class="footer-text">Shop 89 Greenway Close, London, N11 3NT</div>
-  </div>
-  <div class="footer-item">
-    <div class="footer-title">SHOP</div>
-    <div class="footer-text-container">
-      <div class="footer-text">Flowers</div>
-      <div class="footer-text">Gifts</div>
-    </div>
-  </div>
-  <div class="footer-item">
-    <div class="footer-title">CLIENT SERVICE</div>
-    <div class="footer-text-container">
-      <div class="footer-text">Delivery & Pick Up Info</div>
-      <div class="footer-text">Privacy Policy</div>
-      <div class="footer-text">Terms & Conditions</div>
-      <div class="footer-text">FAQ</div>
-      <div class="footer-text">Terms of Service</div>
-      <div class="footer-text">Refund Policy</div>
-    </div>
-  </div>
-  <div class="footer-item">
-    <div class="footer-title">CONNECT WITH US ON SOCIAL</div>
-    <div class="fotter-social footer-text-container">
-      <div class="footer-socail">
-        <i class="icon-insta"></i>
-        <span>@THEFLORIA</span>
+  <div class="footer-wrapper">
+    <div class="footer-item">
+      <div class="logo">
+        <div class="logo-title">FLORIA</div>
+        <div class="logo-text">800 FLORIA  (7599938)</div>
       </div>
-      <div class="email-container">
-        <input class="input-email" placeholder="Enter your email address" type="text">
-        <i class="icon-arrow-right"></i>
+      <div class="footer-text">Open from 8:00 am to 10:00 pm</div>
+      <div class="footer-text">support@floria.ae</div>
+      <div class="footer-text">Shop 89 Greenway Close,London, N11 3NT</div>
+    </div>
+    <div class="footer-item">
+      <div class="footer-title">SHOP</div>
+      <div class="footer-text-container">
+        <div class="footer-text">Flowers</div>
+        <div class="footer-text">Gifts</div>
       </div>
+    </div>
+    <div class="footer-item">
+      <div class="footer-title">CLIENT SERVICE</div>
+      <div class="footer-text-container">
+        <div class="footer-text">Delivery & Pick Up Info</div>
+        <div class="footer-text">Privacy Policy</div>
+        <div class="footer-text">Terms & Conditions</div>
+        <div class="footer-text">FAQ</div>
+        <div class="footer-text">Terms of Service</div>
+        <div class="footer-text">Refund Policy</div>
+      </div>
+    </div>
+    <div class="footer-item">
+      <div class="footer-title">CONNECT WITH US ON SOCIAL</div>
+      <div class="fotter-social footer-text-container">
+        <div class="footer-socail">
+          <i class="icon-insta"></i>
+          <span>@THEFLORIA</span>
+        </div>
+        <div class="email-container">
+          <input class="input-email" placeholder="Enter your email address" type="text">
+          <i class="icon-arrow-right"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="hr-footer">
+  <div class="footer-last p-4 d-flex align-items-center justify-content-between">
+    <div class="copy-right">2023 Copyright Floria Flowers</div>
+    <div class="policy col-md-2 d-flex align-items-center justify-content-between">
+      <div class="policy-1">Privacy Policy</div>
+      <div class="policy-2">Cookie Policy</div>
     </div>
   </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script
+        src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+        crossorigin="anonymous"></script>
+<!-- <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
