@@ -357,6 +357,12 @@
   display: flex;
   gap: 50px;
 }
+.owl-dots{
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .icon-title-arrow-right {
   &:before {
     content: '';
